@@ -177,11 +177,17 @@ class HadithDetailsPage extends GetView<HadithDetailsController> {
                                     ),
                                   ),
                                   const SizedBox(width: 5),
-                                  const Icon(
-                                    Icons.more_vert_sharp,
-                                    color: Colors.grey,
-                                    size: 30,
+                                  IconButton(
+                                    icon: const Icon(
+                                      Icons.more_vert_sharp,
+                                      color: Colors.grey,
+                                      size: 30,
+                                    ),
+                                    onPressed: () {
+
+                                    },
                                   ),
+
                                 ],
                               ),
                               const Padding(
