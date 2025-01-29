@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart'; // Import Get package
-import 'Home_Page.dart';
+import 'package:get/get.dart';
+
+import 'data/Home_Page.dart'; // Import Get package
 
 void main() {
   runApp(const MyApp());
